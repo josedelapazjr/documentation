@@ -51,7 +51,7 @@
 
 5. Set Compiler, Server and Loaders
 
-	a) Update webpack-config.js
+	a) Update webpack.config.js
 	
 		var config = {
 		   entry: './main.js',
@@ -148,4 +148,8 @@
 	
 		> npm start
 		
+	You can now see the result by accessing:
 	
+		> http://localhost:8080
+	
+	Note: The port number is based on the what you specified in the webpack.config.js.
